@@ -1,0 +1,22 @@
+.project-div {
+  margin-bottom: 4em;
+  padding: 1em;
+  background: whitesmoke;
+  animation: leftFade .5s ease-in-out .75s backwards;
+}
+
+.project-div .project-border {
+  padding: 1em;
+  border: 1px dashed cadetblue;
+  border-radius: .25em;
+}
+
+.project-div .project-border p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.project-div .project-border .pic {
+  text-align: center;
+  animation: leftFade .5s ease-in-out 1s backwards;
+}

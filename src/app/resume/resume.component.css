@@ -1,0 +1,29 @@
+object {
+  margin: 2em;
+  width: 95%;
+  height: 50em;
+}
+
+.page-container .play-container {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+a {
+  background: cadetblue;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+  a:hover {
+    background: darkgray;
+  }
+
+  a span {
+    color: whitesmoke;
+  }
+
+.link-container {
+  text-align: center;
+  margin: 2em;
+}
