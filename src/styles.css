@@ -153,31 +153,31 @@ body {
             animation: pageContainerFade .5s ease-in-out .5s backwards;
         }
 
-.link-container {
-    background: whitesmoke;
-    text-align: center;
-    border-radius: .25em;
-    padding: 1em;
-    animation: leftFade .5s ease-in-out .75s backwards;
-}
+            .container .page-container .play-container .link-container {
+                background: whitesmoke;
+                text-align: center;
+                border-radius: .25em;
+                padding: 1em;
+                animation: leftFade .5s ease-in-out .75s backwards;
+            }
 
-.container .page-container .play-container .link-container .link-border {
-    border: 1px dashed #546A76;
-    border-radius: .25em;
-    padding: 1.5em;
-}
+                .container .page-container .play-container .link-container .link-border {
+                    border: 1px dashed #546A76;
+                    border-radius: .25em;
+                    padding: 1.5em;
+                }
 
-    .container .page-container .play-container .link-container .link-border a {
-        background: #546a76;
-        text-decoration: none;
-        color: whitesmoke;
-        border-radius: .15em;
-        padding: 1em;
-        margin: 1em;
-        font-size: 12px;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-    }
+                    .container .page-container .play-container .link-container .link-border a {
+                        background: #546a76;
+                        text-decoration: none;
+                        color: whitesmoke;
+                        border-radius: .15em;
+                        padding: 1em;
+                        margin: 1em;
+                        font-size: 12px;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                    }
 
 footer {
     position: absolute;
