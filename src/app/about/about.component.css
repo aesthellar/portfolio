@@ -1,0 +1,37 @@
+.edu-div {
+  padding: 1em;
+  background: whitesmoke;
+  border-radius: .25em;
+  animation: leftFade .5s ease-in-out .75s backwards;
+}
+
+  .edu-div .edu-border {
+    padding: 1em;
+    border: 1px dashed #546A76;
+    border-radius: .25em;
+  }
+
+    .edu-div .edu-border p {
+      margin: 0;
+    }
+
+.skill-div {
+  float: left;
+  margin: 1em;
+  width: 29%;
+}
+
+  .skill-div .skill-border {
+    padding: 1em;
+    background: whitesmoke;
+    border-radius: .25em;
+    animation: leftFade .5s ease-in-out .75s backwards;
+  }
+
+  .skill-div h2 {
+    text-align: center;
+    padding: .5em;
+    border: 1px dashed #546A76;
+    border-radius: .25em;
+    margin: 0;
+  }

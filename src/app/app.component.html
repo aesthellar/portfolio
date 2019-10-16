@@ -1,15 +1,27 @@
-<header>
-  <div class="container">
-    <a routerLink="/" class="logo">CoolApp</a>
-    <nav>
-      <ul>
-        <li><a href="#" routerLink="/">Home</a></li>
-        <li><a href="#" routerLink="/list">List</a></li>
-      </ul>
-    </nav>
+<header class="sidebar">
+  <div class="sidebar-intro">
+    <div class="profile-img" style="background-image: url(assets/Images/ProfilePicture.png)"></div>
+    <h1>
+      <a routerLink="/" class="logo">Mei Lin Dong</a>
+    </h1>
+    <p>
+      Hello, I'm Mei Lin Dong. Welcome to my website.
+    </p>
   </div>
+
+  <nav>
+    <ul>
+      <li><a href="#" routerLink="/">About</a></li>
+      <li><a href="#" routerLink="/work">Work</a></li>
+      <li><a href="#" routerLink="/projects">Projects</a></li>
+      <li><a href="#" routerLink="/contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
 
-<div class="container">
+<section class="container">
   <router-outlet></router-outlet>
-</div>
+  <footer>
+    <a href="https://github.com/aesthellar/aesthellar.github.io">Designed and Built by Mei Lin Dong</a>
+  </footer>
+</section>
